@@ -1,0 +1,15 @@
+<% layout('layouts/boilerplate')%>
+
+<h1>Upload Image</h1>
+<br><br>
+<form action="/upload" method="POST" class="validated-form" novalidate>
+    <div class="mb-3">
+        <label class="form-label" for="imageURL">imageURL :</label>
+        <input class="form-control" type="text" id="imageURL" name="imageURL" required>
+        <div class="valid-feedback">
+            Looks good!
+        </div>
+         <br>
+        <button class="btn btn-success">Upload</button>
+        </div>
+</form>
